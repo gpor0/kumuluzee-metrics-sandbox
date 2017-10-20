@@ -1,0 +1,120 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building gpor89 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gpor89 ---
+[INFO] Deleting \github\kumuluzee-metrics-sandbox\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gpor89 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ gpor89 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gpor89 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory \github\kumuluzee-metrics-sandbox\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ gpor89 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ gpor89 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gpor89 ---
+[INFO] Building jar: \github\kumuluzee-metrics-sandbox\target\gpor89-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:copy-dependencies (copy-dependencies) @ gpor89 ---
+[INFO] Copying kumuluzee-metrics-core-1.0.0-SNAPSHOT.jar to \github\kumuluzee-metrics-sandbox\target\dependency\kumuluzee-metrics-core-1.0.0-SNAPSHOT.jar
+[INFO] Copying slf4j-api-1.7.22.jar to \github\kumuluzee-metrics-sandbox\target\dependency\slf4j-api-1.7.22.jar
+[INFO] Copying jersey-guava-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-guava-2.25.1.jar
+[INFO] Copying javax.json-api-1.0.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javax.json-api-1.0.jar
+[INFO] Copying javassist-3.20.0-GA.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javassist-3.20.0-GA.jar
+[INFO] Copying kumuluzee-common-2.4.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\kumuluzee-common-2.4.1.jar
+[INFO] Copying jetty-webapp-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-webapp-9.4.6.v20170531.jar
+[INFO] Copying weld-api-2.4.SP1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\weld-api-2.4.SP1.jar
+[INFO] Copying javax.interceptor-api-1.2.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javax.interceptor-api-1.2.jar
+[INFO] Copying http2-hpack-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\http2-hpack-9.4.6.v20170531.jar
+[INFO] Copying jersey-client-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-client-2.25.1.jar
+[INFO] Copying javax.el-api-3.0.0.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javax.el-api-3.0.0.jar
+[INFO] Copying javax.json-1.0.4.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javax.json-1.0.4.jar
+[INFO] Copying jetty-alpn-client-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-alpn-client-9.4.6.v20170531.jar
+[INFO] Copying kumuluzee-cdi-weld-2.4.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\kumuluzee-cdi-weld-2.4.1.jar
+[INFO] Copying jboss-classfilewriter-1.1.2.Final.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jboss-classfilewriter-1.1.2.Final.jar
+[INFO] Copying jersey-media-json-jackson-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-media-json-jackson-2.25.1.jar
+[INFO] Copying kumuluzee-json-p-jsonp-2.4.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\kumuluzee-json-p-jsonp-2.4.1.jar
+[INFO] Copying jetty-client-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-client-9.4.6.v20170531.jar
+[INFO] Copying jersey-jetty-connector-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-jetty-connector-2.25.1.jar
+[INFO] Copying hk2-api-2.5.0-b32.jar to \github\kumuluzee-metrics-sandbox\target\dependency\hk2-api-2.5.0-b32.jar
+[INFO] Copying jersey-cdi1x-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-cdi1x-2.25.1.jar
+[INFO] Copying metrics-jvm-3.2.4.jar to \github\kumuluzee-metrics-sandbox\target\dependency\metrics-jvm-3.2.4.jar
+[INFO] Copying asm-commons-5.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\asm-commons-5.1.jar
+[INFO] Copying jetty-util-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-util-9.4.6.v20170531.jar
+[INFO] Copying javax.ws.rs-api-2.0.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javax.ws.rs-api-2.0.1.jar
+[INFO] Copying http2-common-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\http2-common-9.4.6.v20170531.jar
+[INFO] Copying weld-spi-2.4.SP1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\weld-spi-2.4.SP1.jar
+[INFO] Copying jetty-jndi-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-jndi-9.4.6.v20170531.jar
+[INFO] Copying kumuluzee-jax-rs-jersey-2.4.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\kumuluzee-jax-rs-jersey-2.4.1.jar
+[INFO] Copying http2-client-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\http2-client-9.4.6.v20170531.jar
+[INFO] Copying weld-servlet-core-2.4.4.Final.jar to \github\kumuluzee-metrics-sandbox\target\dependency\weld-servlet-core-2.4.4.Final.jar
+[INFO] Copying snakeyaml-1.18.jar to \github\kumuluzee-metrics-sandbox\target\dependency\snakeyaml-1.18.jar
+[INFO] Copying validation-api-1.1.0.Final.jar to \github\kumuluzee-metrics-sandbox\target\dependency\validation-api-1.1.0.Final.jar
+[INFO] Copying jetty-servlet-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-servlet-9.4.6.v20170531.jar
+[INFO] Copying weld-probe-core-2.4.4.Final.jar to \github\kumuluzee-metrics-sandbox\target\dependency\weld-probe-core-2.4.4.Final.jar
+[INFO] Copying hk2-utils-2.5.0-b32.jar to \github\kumuluzee-metrics-sandbox\target\dependency\hk2-utils-2.5.0-b32.jar
+[INFO] Copying jetty-http-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-http-9.4.6.v20170531.jar
+[INFO] Copying asm-tree-5.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\asm-tree-5.1.jar
+[INFO] Copying jersey-container-servlet-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-container-servlet-2.25.1.jar
+[INFO] Copying jersey-common-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-common-2.25.1.jar
+[INFO] Copying jersey-server-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-server-2.25.1.jar
+[INFO] Copying jackson-core-2.8.10.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jackson-core-2.8.10.jar
+[INFO] Copying jetty-io-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-io-9.4.6.v20170531.jar
+[INFO] Copying hk2-locator-2.5.0-b32.jar to \github\kumuluzee-metrics-sandbox\target\dependency\hk2-locator-2.5.0-b32.jar
+[INFO] Copying metrics-cdi-1.4.0.jar to \github\kumuluzee-metrics-sandbox\target\dependency\metrics-cdi-1.4.0.jar
+[INFO] Copying kumuluzee-core-2.4.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\kumuluzee-core-2.4.1.jar
+[INFO] Copying metrics-json-3.2.4.jar to \github\kumuluzee-metrics-sandbox\target\dependency\metrics-json-3.2.4.jar
+[INFO] Copying jandex-2.0.3.Final.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jandex-2.0.3.Final.jar
+[INFO] Copying jetty-security-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-security-9.4.6.v20170531.jar
+[INFO] Copying metrics-annotation-3.2.4.jar to \github\kumuluzee-metrics-sandbox\target\dependency\metrics-annotation-3.2.4.jar
+[INFO] Copying metrics-core-3.2.4.jar to \github\kumuluzee-metrics-sandbox\target\dependency\metrics-core-3.2.4.jar
+[INFO] Copying metrics-servlet-3.2.4.jar to \github\kumuluzee-metrics-sandbox\target\dependency\metrics-servlet-3.2.4.jar
+[INFO] Copying cdi-api-1.2.jar to \github\kumuluzee-metrics-sandbox\target\dependency\cdi-api-1.2.jar
+[INFO] Copying jetty-annotations-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-annotations-9.4.6.v20170531.jar
+[INFO] Copying jetty-plus-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-plus-9.4.6.v20170531.jar
+[INFO] Copying jersey-media-jaxb-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-media-jaxb-2.25.1.jar
+[INFO] Copying aopalliance-repackaged-2.5.0-b32.jar to \github\kumuluzee-metrics-sandbox\target\dependency\aopalliance-repackaged-2.5.0-b32.jar
+[INFO] Copying http2-server-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\http2-server-9.4.6.v20170531.jar
+[INFO] Copying javax.inject-2.5.0-b32.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javax.inject-2.5.0-b32.jar
+[INFO] Copying jackson-jaxrs-json-provider-2.8.10.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jackson-jaxrs-json-provider-2.8.10.jar
+[INFO] Copying http2-http-client-transport-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\http2-http-client-transport-9.4.6.v20170531.jar
+[INFO] Copying weld-core-impl-2.4.4.Final.jar to \github\kumuluzee-metrics-sandbox\target\dependency\weld-core-impl-2.4.4.Final.jar
+[INFO] Copying jackson-annotations-2.8.10.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jackson-annotations-2.8.10.jar
+[INFO] Copying javax.annotation-api-1.3.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javax.annotation-api-1.3.jar
+[INFO] Copying javax.inject-1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javax.inject-1.jar
+[INFO] Copying jackson-jaxrs-base-2.8.10.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jackson-jaxrs-base-2.8.10.jar
+[INFO] Copying javax.servlet-api-3.1.0.jar to \github\kumuluzee-metrics-sandbox\target\dependency\javax.servlet-api-3.1.0.jar
+[INFO] Copying osgi-resource-locator-1.0.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\osgi-resource-locator-1.0.1.jar
+[INFO] Copying jersey-entity-filtering-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-entity-filtering-2.25.1.jar
+[INFO] Copying jackson-databind-2.6.6.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jackson-databind-2.6.6.jar
+[INFO] Copying jersey-container-servlet-core-2.25.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jersey-container-servlet-core-2.25.1.jar
+[INFO] Copying HikariCP-2.6.3.jar to \github\kumuluzee-metrics-sandbox\target\dependency\HikariCP-2.6.3.jar
+[INFO] Copying jetty-server-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-server-9.4.6.v20170531.jar
+[INFO] Copying kumuluzee-microProfile-1.0-2.4.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\kumuluzee-microProfile-1.0-2.4.1.jar
+[INFO] Copying jetty-alpn-server-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-alpn-server-9.4.6.v20170531.jar
+[INFO] Copying jackson-module-jaxb-annotations-2.8.10.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jackson-module-jaxb-annotations-2.8.10.jar
+[INFO] Copying asm-5.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\asm-5.1.jar
+[INFO] Copying jetty-xml-9.4.6.v20170531.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jetty-xml-9.4.6.v20170531.jar
+[INFO] Copying weld-environment-common-2.4.4.Final.jar to \github\kumuluzee-metrics-sandbox\target\dependency\weld-environment-common-2.4.4.Final.jar
+[INFO] Copying weld-core-jsf-2.4.4.Final.jar to \github\kumuluzee-metrics-sandbox\target\dependency\weld-core-jsf-2.4.4.Final.jar
+[INFO] Copying jboss-logging-3.3.0.Final.jar to \github\kumuluzee-metrics-sandbox\target\dependency\jboss-logging-3.3.0.Final.jar
+[INFO] Copying kumuluzee-servlet-jetty-2.4.1.jar to \github\kumuluzee-metrics-sandbox\target\dependency\kumuluzee-servlet-jetty-2.4.1.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.610 s
+[INFO] Finished at: 2017-10-20T15:29:15+02:00
+[INFO] Final Memory: 19M/225M
+[INFO] ------------------------------------------------------------------------
