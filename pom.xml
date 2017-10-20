@@ -21,7 +21,7 @@
         <kumuluzee-metrics.version>1.0.0-SNAPSHOT</kumuluzee-metrics.version>
         <kumuluzee-health.version>1.0.0-SNAPSHOT</kumuluzee-health.version>
       
-        <maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>
+        <maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>
     </properties>
 
     <prerequisites>
